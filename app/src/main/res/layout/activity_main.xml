@@ -14,7 +14,7 @@
         android:orientation="vertical"
         android:background="@color/black">
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnlogin"
             android:layout_width="237dp"
             android:layout_height="39dp"
@@ -23,7 +23,7 @@
             android:textColor="@color/black"
             android:background="@drawable/round_button"
             android:text="Ingresar"/>
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnregistrarse"
             android:layout_width="237dp"
             android:layout_height="39dp"
