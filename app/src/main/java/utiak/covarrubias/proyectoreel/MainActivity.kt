@@ -20,12 +20,13 @@ class MainActivity : AppCompatActivity() {
             var intent: Intent = Intent(this, registrarse::class.java)
             startActivity(intent)
         }
-        val buttonOU: Button=findViewById(R.id.btn_olvidarC)
+
+        val buttonOc: Button=findViewById(R.id.btn_olvidarC)
         buttonR.setOnClickListener{
             var intent: Intent = Intent(this, Contra_Recuperar::class.java)
             startActivity(intent)
         }
-        val buttonOC: Button=findViewById(R.id.btn_olvidarU)
+        val buttonOu: Button=findViewById(R.id.btn_olvidarU)
         buttonR.setOnClickListener{
             var intent: Intent = Intent(this, Usuario_Recuperar::class.java)
             startActivity(intent)

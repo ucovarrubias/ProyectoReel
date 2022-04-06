@@ -9,7 +9,7 @@
         <entry key="..\:/Users/ediit/AndroidStudioProjects/ProyectoReel/app/src/main/res/drawable/round_button_gris.xml" value="0.1" />
         <entry key="..\:/Users/ediit/AndroidStudioProjects/ProyectoReel/app/src/main/res/layout/activity_contra_recuperar.xml" value="0.1691995947315096" />
         <entry key="..\:/Users/ediit/AndroidStudioProjects/ProyectoReel/app/src/main/res/layout/activity_main.xml" value="0.25153374233128833" />
-        <entry key="..\:/Users/ediit/AndroidStudioProjects/ProyectoReel/app/src/main/res/layout/activity_menu.xml" value="0.17603850050658562" />
+        <entry key="..\:/Users/ediit/AndroidStudioProjects/ProyectoReel/app/src/main/res/layout/activity_menu.xml" value="0.33" />
         <entry key="..\:/Users/ediit/AndroidStudioProjects/ProyectoReel/app/src/main/res/layout/activity_recuperar_contrasenia.xml" value="0.23076923076923078" />
         <entry key="..\:/Users/ediit/AndroidStudioProjects/ProyectoReel/app/src/main/res/layout/activity_registrarse.xml" value="0.10483870967741936" />
         <entry key="..\:/Users/ediit/AndroidStudioProjects/ProyectoReel/app/src/main/res/layout/activity_usuario_recuperar.xml" value="0.17603850050658562" />
@@ -24,6 +24,7 @@
         <entry key="..\:/Users/ediit/AndroidStudioProjects/ProyectoReel/app/src/main/res/layout/recuperar_usuario.xml" value="0.1" />
         <entry key="..\:/Users/ediit/AndroidStudioProjects/ProyectoReel/app/src/main/res/layout/registrar.xml" value="0.1" />
         <entry key="..\:/Users/ediit/AndroidStudioProjects/ProyectoReel/app/src/main/res/layout/ubicacion.xml" value="0.3625" />
+        <entry key="..\:/Users/ediit/AndroidStudioProjects/ProyectoReel/app/src/main/res/menu/menu_reel.xml" value="0.3625" />
       </map>
     </option>
   </component>

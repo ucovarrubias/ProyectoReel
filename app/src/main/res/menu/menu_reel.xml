@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_inicio"
+        android:title="Inicio"
+        android:icon="@drawable/ic_inicio"/>
+    <item android:id="@+id/menu_cartelera"
+        android:title="Cartelera"
+        android:icon="@drawable/ic_cartelera"/>
+    <item android:id="@+id/menu_estrenos"
+        android:title="Estrenos"
+        android:icon="@drawable/ic_estrenos"/>
+    <item android:id="@+id/menu_cines"
+        android:title="Cines"
+        android:icon="@drawable/ic_cines"/>
+    <item android:id="@+id/menu_perfil"
+        android:title="Perfil"
+        android:icon="@drawable/ic_perfil"/>
+
+</menu>
