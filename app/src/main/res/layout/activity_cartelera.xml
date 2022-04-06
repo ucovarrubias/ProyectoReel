@@ -45,14 +45,14 @@
             android:layout_marginLeft="40sp"
             android:layout_width="48dp"
             android:layout_height="48dp"
-            android:background="@null"
+            android:background="none"
             android:src="@drawable/ic_baseline_search_48" />
 
         <ImageButton
             android:id="@+id/btn_filtro"
             android:layout_width="48dp"
             android:layout_height="48dp"
-            android:background="@null"
+            android:background="none"
             android:src="@drawable/ic_baseline_tune_48" />
 
     </LinearLayout>
@@ -112,7 +112,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="170dp"
-                android:src="@drawable/caos" />
+                android:src="@drawable/Caos" />
 
             <TextView
                 android:layout_width="match_parent"
