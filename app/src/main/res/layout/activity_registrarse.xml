@@ -123,7 +123,7 @@
 
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnlogin"
+        android:id="@+id/btnregis"
         android:layout_width="160dp"
         android:layout_height="30dp"
         android:layout_gravity="center"
