@@ -60,6 +60,7 @@
         android:background="@drawable/round_button_gris"
         android:textSize="16sp" />
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_olvidarU"
         android:layout_width="200dp"
         android:layout_height="20dp"
         android:layout_marginTop="4dp"
@@ -93,6 +94,7 @@
         android:background="@drawable/round_button_gris"
         android:textSize="16sp" />
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_olvidarC"
         android:layout_width="180dp"
         android:layout_height="20dp"
         android:layout_marginTop="4dp"
