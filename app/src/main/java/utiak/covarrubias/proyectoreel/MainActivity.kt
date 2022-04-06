@@ -11,11 +11,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        val buttonOc: Button=findViewById(R.id.btn_olvidarC) as Button
+
         val button: Button = findViewById(R.id.btnlogin) as Button
         val buttonR: Button=findViewById(R.id.btnregistrarse) as Button
-        val buttonOu: Button=findViewById(R.id.btn_olvidarU) as Button
-
+        val buttonOusuario: Button=findViewById(R.id.btn_olvidarU) as Button
+        val buttonOcontra: Button=findViewById(R.id.btn_olvidarC) as Button
 
         button.setOnClickListener{
             var intent: Intent = Intent(this, Menu::class.java)
@@ -28,13 +28,13 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-        buttonR.setOnClickListener{
-            var intent: Intent = Intent(this, Contra_Recuperar::class.java)
+        buttonOusuario.setOnClickListener{
+            var intent: Intent = Intent(this, Usuario_Recuperar::class.java)
             startActivity(intent)
         }
 
-        buttonR.setOnClickListener{
-            var intent: Intent = Intent(this, Usuario_Recuperar::class.java)
+        buttonOcontra.setOnClickListener{
+            var intent: Intent = Intent(this, Contra_Recuperar::class.java)
             startActivity(intent)
         }
 

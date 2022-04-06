@@ -7,7 +7,7 @@
     <string name="contra">Contraseña</string>
     <string name="olvidate_contraseña">¿Olvidaste tu contraseña?</string>
     <string name="olvidasteU">¿Olvidaste tu nombre de usuario?</string>
-    <string name="nombreO">Olvidé mi \nNombre de \nUsuario</string>
+    <string name="olvidar_usuario">Olvidé mi \nNombre de \nUsuario</string>
     <string name="email">E-mail</string>
     <string name="enviar">Enviar</string>
     <string name="nombre">Olvidé mi\ Contraseña</string>
