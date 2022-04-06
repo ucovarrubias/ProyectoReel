@@ -3,10 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ediit/AndroidStudioProjects/ProyectoReel/app/src/main/res/drawable/round_button.xml" value="0.1" />
         <entry key="..\:/Users/ediit/AndroidStudioProjects/ProyectoReel/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/Users/ediit/AndroidStudioProjects/ProyectoReel/app/src/main/res/layout/cartelera.xml" value="0.3625" />
+        <entry key="..\:/Users/ediit/AndroidStudioProjects/ProyectoReel/app/src/main/res/layout/cines.xml" value="0.3625" />
+        <entry key="..\:/Users/ediit/AndroidStudioProjects/ProyectoReel/app/src/main/res/layout/estrenos.xml" value="0.3625" />
         <entry key="..\:/Users/ediit/AndroidStudioProjects/ProyectoReel/app/src/main/res/layout/iniciarsesion.xml" value="0.3625" />
         <entry key="..\:/Users/ediit/AndroidStudioProjects/ProyectoReel/app/src/main/res/layout/inicio.xml" value="0.3625" />
+        <entry key="..\:/Users/ediit/AndroidStudioProjects/ProyectoReel/app/src/main/res/layout/perfil.xml" value="0.3625" />
         <entry key="..\:/Users/ediit/AndroidStudioProjects/ProyectoReel/app/src/main/res/layout/registrar.xml" value="0.3625" />
+        <entry key="..\:/Users/ediit/AndroidStudioProjects/ProyectoReel/app/src/main/res/layout/ubicacion.xml" value="0.3625" />
       </map>
     </option>
   </component>
