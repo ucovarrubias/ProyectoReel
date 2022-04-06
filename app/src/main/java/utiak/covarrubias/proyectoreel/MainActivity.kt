@@ -10,19 +10,19 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val button: Button = findViewById(R.id.btn_ingresar)
+        val button: Button = findViewById(R.id.btnlogin)
         button.setOnClickListener{
             var intent: Intent = Intent(this, Menu::class.java)
             startActivity(intent)
         }
-        val buttonR: Button=findViewById(R.id.btn_registrarse)
+        val buttonR: Button=findViewById(R.id.btnregistrarse)
         buttonR.setOnClickListener{
             var intent: Intent = Intent(this, registrarse::class.java)
             startActivity(intent)
         }
         val buttonOU: Button=findViewById(R.id.btn_olvidarC)
         buttonR.setOnClickListener{
-            var intent: Intent = Intent(this, recuperar_contrasenia::class.java)
+            var intent: Intent = Intent(this, Contra_Recuperar::class.java)
             startActivity(intent)
         }
         val buttonOC: Button=findViewById(R.id.btn_olvidarU)

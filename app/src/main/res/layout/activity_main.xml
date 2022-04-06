@@ -15,7 +15,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
         android:scaleType="fitXY"
-        android:src="@drawable/REEL"
+        android:src="@drawable/logo"
 
         />
 
@@ -85,7 +85,7 @@
         android:textStyle="bold"
         app:drawableLeftCompat="@drawable/ic_baseline_lock_24" />
 
-    <androidx.appcompat.widget.AppCompatEditText
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/ed_contra"
         android:layout_width="240dp"
         android:layout_height="38dp"
@@ -93,6 +93,7 @@
         android:layout_marginTop="4dp"
         android:background="@drawable/round_button_gris"
         android:textSize="16sp" />
+
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_olvidarC"
         android:layout_width="180dp"
@@ -115,8 +116,7 @@
         android:layout_marginTop="50dp"
         android:background="@drawable/round_button"
         android:text="@string/ingresar"
-        android:textColor="@color/black"
-        android:textStyle="bold" />
+        android:textColor="@color/black" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnregistrarse"

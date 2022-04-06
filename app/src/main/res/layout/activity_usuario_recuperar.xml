@@ -15,7 +15,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="50dp"
             android:scaleType="fitXY"
-            android:src="@drawable/REEL"
+            android:src="@drawable/logo"
 
             />
 
