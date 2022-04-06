@@ -11,7 +11,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
         val button: Button = findViewById(R.id.btnlogin) as Button
         val buttonR: Button=findViewById(R.id.btnregistrarse) as Button
         val buttonOusuario: Button=findViewById(R.id.btn_olvidarU) as Button
