@@ -40,7 +40,7 @@
             app:drawableStartCompat="@drawable/ic_baseline_location_on_24"
             app:drawableTint="@color/white" />
 
-        <ImageButton
+        <androidx.appcompat.widget.AppCompatImageButton
             android:id="@+id/btn_buscar"
             android:layout_marginLeft="40sp"
             android:layout_width="48dp"
@@ -48,7 +48,7 @@
             android:background="none"
             android:src="@drawable/ic_baseline_search_48" />
 
-        <ImageButton
+        <androidx.appcompat.widget.AppCompatImageButton
             android:id="@+id/btn_filtro"
             android:layout_width="48dp"
             android:layout_height="48dp"
