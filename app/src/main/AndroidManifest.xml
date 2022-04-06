@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoReel">
         <activity
+            android:name=".Contra_Recuperar"
+            android:exported="false" />
+        <activity
+            android:name=".Usuario_Recuperar"
+            android:exported="false" />
+        <activity
+            android:name=".registrarse"
+            android:exported="false" />
+        <activity
             android:name=".recuperar_contrasenia"
             android:exported="false" />
         <activity

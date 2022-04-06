@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/black"
+        tools:context=".Contra_Recuperar">
+
+        <ImageView
+            android:layout_width="265dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/REEL"
+
+            />
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="110dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="70sp"
+            android:text="@string/nombre"
+            android:textColor="@color/white"
+            android:textSize="35sp" />
+        <TextView
+            android:id="@+id/tv_usuario"
+            android:layout_marginTop="20dp"
+            android:drawablePadding="5dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nombre_usuario"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            app:drawableLeftCompat="@drawable/ic_baseline_person_24"
+            />
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/ed_usua"
+            android:layout_width="240dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/round_button_gris"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="4dp"
+            android:textSize="13sp"
+            android:text="@string/olvidate_contraseña"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:id="@+id/tv_emails"
+            android:layout_marginTop="30dp"
+            android:drawablePadding="5dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textAlignment="center"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/ed_email"
+            android:layout_width="240dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/round_button_gris"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:textAlignment="center"
+            android:text="@string/nombreus"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnEnviar"
+            android:layout_width="180dp"
+            android:layout_height="39dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_button"
+            android:text="@string/enviar"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </LinearLayout>
