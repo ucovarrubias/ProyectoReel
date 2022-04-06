@@ -8,32 +8,50 @@
     android:background="@color/black"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:background="@color/black">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:scaleType="fitXY"
+
+        />
+
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/ed_usuario"
+        android:layout_width="300dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/round_button_gris"
+/>
+
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnlogin"
-            android:layout_width="237dp"
+            android:layout_width="180dp"
             android:layout_height="39dp"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:textColor="@color/black"
             android:background="@drawable/round_button"
-            android:text="Ingresar"/>
+            android:textStyle="bold"
+            android:hint="@string/ingresar"/>
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnregistrarse"
-            android:layout_width="237dp"
+            android:layout_width="180dp"
             android:layout_height="39dp"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:background="@drawable/round_button"
             android:textColor="@color/black"
-            android:text="Registrarse"/>
-    </LinearLayout>
-
-
+            android:hint="@string/registro"/>
 
 </LinearLayout>
+
+
+

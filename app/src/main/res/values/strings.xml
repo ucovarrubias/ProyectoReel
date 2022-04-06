@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ProyectoReel</string>
+    <string name="registro">Registro</string>
+    <string name="ingresar">Ingresar</string>
 </resources>
