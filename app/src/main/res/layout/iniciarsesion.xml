@@ -4,9 +4,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/graybg"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/REEL"
+        />
 
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inicia Sesión"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        />
 
 
 
