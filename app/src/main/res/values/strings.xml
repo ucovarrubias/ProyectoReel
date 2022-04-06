@@ -21,6 +21,13 @@
     <string name="nombrep">País</string>
     <string name="nombreEst">Estado</string>
     <string name="nombreCiu">Ciudad</string>
+    <string name="nomUbi">Ubicación</string>
+    <string name="nombreUbi">Permitir deteccion de ubicación</string>
+    <string name="NombreDet">Ciudad detectada</string>
+
+
+
+
 
 
 </resources>

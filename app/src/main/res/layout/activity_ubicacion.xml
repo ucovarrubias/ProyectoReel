@@ -5,13 +5,88 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/black"
+    android:background="@color/grisBlack"
     tools:context=".Ubicacion">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="@string/nomUbi"
+        android:textColor="@color/white"
+        android:layout_gravity="left"
+        android:layout_marginLeft="30sp"
+        android:textSize="30sp"
+        app:drawableLeftCompat="@drawable/ic_baseline_location_on_24"
         />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gris"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:background="@color/grisesito"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ubicacion_1"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="20dp"
+            android:drawablePadding="5dp"
+            android:text="@string/nombreUbi"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Switch
+            android:id="@+id/swUbi"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="-60dp" />
+
+        <Button
+            android:layout_width="400dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="@color/gris" />
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="12dp"
+            android:drawablePadding="5dp"
+            android:text="@string/NombreDet"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_ubicacion"
+            android:layout_width="152dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:background=""
+            android:hint="Cd. Obregón ▼"
+            android:layout_marginRight="5sp"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="-55dp"
+            android:textSize="15sp" />
+
+        <Button
+            android:layout_width="400dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="6dp"
+            android:layout_gravity="center"
+            android:background="@color/gris" />
+
+
+    </LinearLayout>
+
 
 </LinearLayout>
