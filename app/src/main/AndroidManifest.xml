@@ -40,9 +40,6 @@
             android:name=".registrarse"
             android:exported="false" />
         <activity
-            android:name=".recuperar_contrasenia"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

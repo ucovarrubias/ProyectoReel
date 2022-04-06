@@ -10,7 +10,7 @@ class Cartelera : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_cartelera)
 
-        val gridview: GridView = findViewById(R.id.gv_cartelera) as GridView
+        val gridview: GridView = findViewById(R.id.gl_cartelera) as GridView
         //var adapter: PeliculaAdapter? = null
 
         //adapter = PeliculaAdapter(pelicula, this)
