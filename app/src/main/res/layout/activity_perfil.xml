@@ -1,9 +1,187 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/graybg"
+    android:orientation="vertical"
     tools:context=".Perfil">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/logo" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_perfil"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/foto_perfil" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-160dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="47dp"
+            android:layout_height="46dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/ic_reel" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="275dp"
+            android:layout_marginTop="-48dp"
+            android:backgroundTint="@color/graybg"
+            android:fontFamily="sans-serif-medium"
+            android:text="0000"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnConseguirM"
+            android:layout_width="180dp"
+            android:layout_height="39dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bordes_redondos"
+            android:text="@string/conseguirM"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnCanejarM"
+            android:layout_width="180dp"
+            android:layout_height="39dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bordes_redondos"
+            android:text="@string/canjearM"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/et_usuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="OldBoy27"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/et_usuario_desc"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/graybg"
+            android:textStyle="italic"
+            android:text="SAY 'WHAT' AGAIN! SAY 'WHAT' AGAIN!! I DARE YOU! DOUBLE DARE YOU! SAY 'WHAT' ONE MORE GODMAMN TIME!!!"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/material_dynamic_neutral10"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnAmigos"
+            android:layout_width="300dp"
+            android:layout_height="39dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/round_button_gris"
+            android:text="Amigos"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textAlignment="center"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnRecordatorio"
+            android:layout_width="300dp"
+            android:layout_height="39dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="13dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/round_button_gris"
+            android:text="Recordatorio"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnListas"
+            android:layout_width="300dp"
+            android:layout_height="39dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="13dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/round_button_gris"
+            android:text="Tus Listas"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnCalificaciones"
+            android:layout_width="300dp"
+            android:layout_height="39dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="13dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/round_button_gris"
+            android:text="Calificaciones"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnInsignias"
+            android:layout_width="300dp"
+            android:layout_height="39dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="13dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/round_button_gris"
+            android:text="Insignias"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnConfig"
+            android:layout_width="300dp"
+            android:layout_height="39dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="13dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/round_button_gris"
+            android:text="ConfiguraciÃ³n"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

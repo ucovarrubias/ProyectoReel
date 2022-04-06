@@ -9,5 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="gris">#4a4a4a</color>
     <color name="graybg">#151515</color>
+    <color name="grisesito">#282828</color>
+    <color name="grisBlack">#121212</color>
 
 </resources>
