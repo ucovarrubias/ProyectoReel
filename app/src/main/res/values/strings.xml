@@ -13,7 +13,9 @@
     <string name="nombre">Olvidé mi\ Contraseña</string>
     <string name="nombreE">Enviaremos un link a \n tu correo para que \n puedas recuperar tu\n nombre de usuario</string>
     <string name="nombreus">Enviaremos un link a tu \n correo para que puedas\n recuperar tu contraseña</string>
-
+    <string name="repiteC">Repetir Contraseña</string>
+    <string name="registrar">Regístrate</string>
+    <string name="registra">Regístrarse</string>
 
 
 </resources>
