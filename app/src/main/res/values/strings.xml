@@ -8,4 +8,12 @@
     <string name="olvidate_contraseña">¿Olvidaste tu contraseña?</string>
     <string name="olvidasteU">¿Olvidaste tu nombre de usuario?</string>
     <string name="nombreO">Olvidé mi \nNombre de \nUsuario</string>
+    <string name="email">E-mail</string>
+    <string name="enviar">Enviar</string>
+    <string name="nombre">Olvidé mi\ Contraseña</string>
+    <string name="nombreE">Enviaremos un link a \n tu correo para que \n puedas recuperar tu\n nombre de usuario</string>
+    <string name="nombreus">Enviaremos un link a tu \n correo para que puedas\n recuperar tu contraseña</string>
+
+
+
 </resources>
