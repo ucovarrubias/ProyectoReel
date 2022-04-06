@@ -10,46 +10,112 @@
 
 
     <ImageView
-        android:layout_width="100dp"
+        android:layout_width="265dp"
         android:layout_height="80dp"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
         android:scaleType="fitXY"
+        android:src="@drawable/REEL"
 
         />
 
+    <TextView
+        android:layout_width="195dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="@string/tituloinicio"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        />
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
 
+        />
+    <TextView
+        android:id="@+id/tv_nombreU"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:text="@string/nombre_usuario"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        />
 
     <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/ed_usuario"
-        android:layout_width="300dp"
+        android:layout_width="195dp"
         android:layout_height="38dp"
         android:layout_gravity="center"
-        android:textSize="16sp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="5dp"
         android:background="@drawable/round_button_gris"
-/>
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="4dp"
+        android:textSize="10sp"
+        android:text="@string/olvidasteU"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:text="@string/contra"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/ed_contra"
+        android:layout_width="195dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/round_button_gris"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="4dp"
+        android:textSize="10sp"
+        android:text="@string/olvidate_contraseña"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        />
 
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btnlogin"
-            android:layout_width="180dp"
-            android:layout_height="39dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:textColor="@color/black"
-            android:background="@drawable/round_button"
-            android:textStyle="bold"
-            android:hint="@string/ingresar"/>
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btnregistrarse"
-            android:layout_width="180dp"
-            android:layout_height="39dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/round_button"
-            android:textColor="@color/black"
-            android:hint="@string/registro"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnlogin"
+        android:layout_width="180dp"
+        android:layout_height="39dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/round_button"
+        android:text="@string/ingresar"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnregistrarse"
+        android:layout_width="180dp"
+        android:layout_height="39dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_button"
+        android:text="@string/registro"
+        android:textColor="@color/black" />
 
 </LinearLayout>
 

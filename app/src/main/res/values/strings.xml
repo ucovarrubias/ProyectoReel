@@ -2,4 +2,9 @@
     <string name="app_name">ProyectoReel</string>
     <string name="registro">Registro</string>
     <string name="ingresar">Ingresar</string>
+    <string name="tituloinicio">Inicia Sesión</string>
+    <string name="nombre_usuario">Nombre de Usuario</string>
+    <string name="contra">Contraseña</string>
+    <string name="olvidate_contraseña">¿Olvidaste tu contraseña?</string>
+    <string name="olvidasteU">¿Olvidaste tu nombre de usuario?</string>
 </resources>
