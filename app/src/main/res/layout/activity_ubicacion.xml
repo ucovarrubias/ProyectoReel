@@ -66,7 +66,7 @@
             android:textColor="@color/white"
             android:textSize="20sp" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_ubicacion"
             android:layout_width="152dp"
             android:layout_height="40dp"
